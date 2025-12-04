@@ -22,9 +22,10 @@ Il progetto implementa una pipeline avanzata:
 
 Il sistema è stato validato su un test set estratto da PolitiFact.
 
-| Metrica | Risultato | Note |
-| :--- | :--- | :--- |
-| **Accuratezza** | **93.6%** | Su classificazione binaria |
-| **Precisione** | **100.0%** | Zero Falsi Positivi (Il sistema è "scettico") |
-| **Specificità** | **98.5%** | Eccellente resistenza alle fake news |
-| **Recall** | ~59% | Ottimizzato per non validare falsità |
+| Metrica | Risultato |
+| :--- | :--- |
+| **Accuracy** | **93.6%** |
+| **Precision** | **84.6%** |
+| **Recall** | **58.9%** |
+| **F1-Score** | **69.5%** |
+| **Specificity (TNR)** | **98.5%** | 

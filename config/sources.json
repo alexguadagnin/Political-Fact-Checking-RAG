@@ -1,0 +1,74 @@
+{
+  "comment": "Punteggi di credibilità. 10 = max affidabilità, 1 = min affidabilità",
+  "sources": {
+    "default_score": 3,
+    "high_trust": {
+      "score": 10,
+      "domains": [
+        "apnews.com",
+        "reuters.com",
+        "cdc.gov",
+        "who.int",
+        "nasa.gov",
+        "fda.gov",
+        "nih.gov",
+        "justice.gov",
+        "senate.gov",
+        "house.gov",
+        "whitehouse.gov",
+        "bls.gov",
+        "census.gov",
+        "noaa.gov"
+      ]
+    },
+    "fact_checkers": {
+      "score": 10,
+      "domains": [
+        "politifact.com",
+        "snopes.com",
+        "factcheck.org",
+        "washingtonpost.com/fact-checker",
+        "checkyourfact.com"
+      ]
+    },
+    "media_high": {
+      "score": 8,
+      "domains": [
+        "nytimes.com",
+        "washingtonpost.com",
+        "wsj.com",
+        "bbc.com",
+        "npr.org",
+        "pbs.org",
+        "theguardian.com",
+        "economist.com",
+        "c-span.org"
+      ]
+    },
+    "media_medium": {
+      "score": 5,
+      "domains": [
+        "cnn.com",
+        "nbcnews.com",
+        "cbsnews.com",
+        "abcnews.go.com",
+        "usatoday.com",
+        "forbes.com",
+        "bloomberg.com",
+        "time.com",
+        "foxnews.com"
+      ]
+    },
+    "low_trust": {
+      "score": 1,
+      "domains": [
+        "infowars.com",
+        "breitbart.com",
+        "dailycaller.com",
+        "dailywire.com",
+        "thegatewaypundit.com",
+        "rt.com"
+      ]
+    }
+  }
+}
